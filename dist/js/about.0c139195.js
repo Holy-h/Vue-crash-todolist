@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,e,n){"use strict";n.r(e);var u=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},o=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"about"},[n("h1",[t._v("About")]),n("p",[t._v("이 페이지는 TodoList의 About페이지 입니다. v1.0.0")])])}],s=n("2877"),a={},c=Object(s["a"])(a,u,o,!1,null,null,null);e["default"]=c.exports}}]);
+//# sourceMappingURL=about.0c139195.js.map
