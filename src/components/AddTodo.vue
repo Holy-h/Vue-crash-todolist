@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 export default {
-  name: 'AddTodo',
+  name: "AddTodo",
   data() {
     return {
-      title: '',
+      title: "",
     };
   },
   methods: {
@@ -27,14 +27,13 @@ export default {
       e.preventDefault();
 
       const newTodo = {
-        id: uuidv4(),
         title: this.title,
         completed: false,
       };
       // Send up to parent
-      this.$emit('add-todo', newTodo);
+      this.$emit("add-todo", newTodo);
       // Reset text-input
-      this.title = '';
+      this.title = "";
     },
   },
 };
@@ -45,11 +44,11 @@ form {
   display: flex;
 }
 
-input[type='text'] {
+input[type="text"] {
   flex: 10;
   padding: 4px;
 }
-input[type='submit'] {
+input[type="submit"] {
   flex: 2;
 }
 </style>
